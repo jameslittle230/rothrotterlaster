@@ -525,8 +525,9 @@ img {
     text-decoration: none;
     display: block;
     padding: 0.5em; }
-    .main-navigation__item a:before {
-      content: "▶ "; }
+    @media only screen and (min-width: 50rem) {
+      .main-navigation__item a:before {
+        content: "▶ "; } }
   @media only screen and (max-width: 50rem) {
     .main-navigation__item {
       text-align: center;
@@ -557,7 +558,7 @@ img {
   box-shadow: 0 0 20px #191919;
   max-width: 80%;
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto 1em; }
 
 .home-news {
   clear: both;

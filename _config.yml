@@ -1,5 +1,5 @@
 # Site settings
-title: Your awesome title
+title: Drs. Roth Rotter and Laster
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -12,3 +12,27 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About Us
+   url: /about
+ - title: Appointments
+   url: /appointments
+ - title: Hours and Directions
+   url: /hours-directions
+ - title: New Patient Information
+   url: /new-patient
+ - title: Emergencies
+   url: /emergencies
+ - title: After Hours Coverage
+   url: /after-hours
+ - title: Forms and Resources
+   url: /resources
+ - title: Office Policies
+   url: /policies
+ - title: Insurance
+   url: /insurance
+ - title: Referrals
+   url: /referrals

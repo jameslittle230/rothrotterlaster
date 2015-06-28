@@ -48,7 +48,9 @@
         padding: 0.5em;
 
         &:before {
-            content: "▶ ";
+            @include mq-greater-than(small) {
+                content: "▶ ";
+            }
         }
     }
 
