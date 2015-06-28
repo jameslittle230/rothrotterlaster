@@ -2,22 +2,34 @@
 layout: default
 ---
 
-<div class="home">
+<img src="https://rosemedicalcenter.files.wordpress.com/2011/08/team-of-doctors.jpg" alt="" class="content__home-image">         
 
-  <h1 class="page-heading">Posts</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<section class="home-news">
+    <article class="home-news__news-box">
+        <header class="news-box__header">
+            <h1 class="news-box__header__title">News &amp; Updates</h1>
+            <!-- <h2 class="news-box__header__date">October 2014</h2> -->
+        </header>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+        <div class="news-box__content">
+            <p>We know you've been waiting! Flu shots are now available in our office. Our flu clinic will be on October 24, 2014. Come in soon!</p>
+        </div>
+    </article>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <article class="home-news__news-box">
+        <header class="news-box__header">
+            <h1 class="news-box__header__title">Expecting</h1>
+            <!-- <h2 class="news-box__header__date">October 2014</h2> -->
+        </header>
 
-</div>
+        <div class="news-box__content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, repellendus expedita quidem excepturi velit quod laborum accusantium saepe deserunt harum?</p>
+        </div>
+    </article>
+</section>
+
+<section class="logos">
+    <h1>Logos Go Here</h1>
+</section>
