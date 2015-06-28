@@ -36,11 +36,6 @@
 
 .main-navigation__item {
     margin-bottom: 0.5em;
-    padding: 0.5em;
-
-    &:before {
-        content: "▶ ";
-    }
 
     &:hover {
         @extend .main-navigation__item--active;
@@ -49,6 +44,12 @@
     a {
         color: inherit;
         text-decoration: none;
+        display: block;
+        padding: 0.5em;
+
+        &:before {
+            content: "▶ ";
+        }
     }
 
     @include mq-equals(small) {
