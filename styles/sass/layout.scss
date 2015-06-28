@@ -1,0 +1,10 @@
+.content {
+    padding: 2rem;
+}
+
+.main-navigation + .content {
+    @include mq-greater-than(small) {
+        width: 65%;
+        float: right;
+    }
+}
