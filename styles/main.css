@@ -411,6 +411,25 @@ img {
 .text-center {
   text-align: center; }
 
+.pull-left {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em; }
+
+.clear {
+  clear: both; }
+
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+  clear: both;
+  margin-top: 1.3em;
+  margin-bottom: 0.4em; }
+  .content h1:first-child, .content h2:first-child, .content h3:first-child, .content h4:first-child, .content h5:first-child, .content h6:first-child {
+    margin-top: 0; }
+.content p {
+  margin: 0; }
+  .content p + p {
+    margin-top: 1.5em; }
+
 .banner {
   background: linear-gradient(to right, #0A7BFF 0%, #F8F8F8 13%, #F8F8F8 87%, #0A7BFF 100%);
   text-align: center;
