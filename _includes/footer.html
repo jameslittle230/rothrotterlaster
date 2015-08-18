@@ -1,7 +1,7 @@
 <footer class="page-footer">
     <div class="page-wrap">
         <p class="page-footer__contact">Drs. Roth, Rotter, and Laster<br>
-        
+
         <a href="https://www.google.com/maps/place/637+Washington+St,+Brookline,+MA+02446/">637 Washington Street, Suite 202<br>
         Brookline MA, 02445</a><br>
         (617) 232-2811</p>
@@ -9,3 +9,15 @@
         <p class="page-footer__byline">Site by James Little</p>
     </div>
 </footer>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-2.0.3.min.js"></script>')</script>
+<script>
+    var size = window.getComputedStyle(document.body, ':before').getPropertyValue('content');
+    if(size === '"Small"') {
+        $("#js-main-nav-toggled").hide();
+    }
+    $("#js-main-nav-toggler").click(function() {
+        $("#js-main-nav-toggled").toggle();
+    });
+</script>

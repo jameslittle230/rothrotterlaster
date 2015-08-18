@@ -25,6 +25,10 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
+
+        @include mq-equals(small) {
+            margin-top: 1rem;
+        }
     }
 }
 
@@ -70,8 +74,8 @@
 
 .main-navigation__item--emergencies:hover {
     @include mq-greater-than(small) {
-        background: linear-gradient(to right, 
-            $red 0%, 
+        background: linear-gradient(to right,
+            $red 0%,
             $white 80%
         );
     }
@@ -79,4 +83,23 @@
 
 .home-news {
     clear: both;
+}
+
+.main-navigation__toggle {
+    text-align: center;
+    font-size: 1.3em;
+    margin: 0;
+    background: linear-gradient(to bottom, lighten($gray, 20%) 0%, lighten($gray, 10%) 100%);
+    border: 1px solid lighten($gray, 30%);
+    border-radius: 7px;
+    font-weight: 300;
+
+    @include mq-greater-than(small) {
+        display: none;
+    }
+
+    &:hover {
+        background: linear-gradient(to bottom, lighten($gray, 10%) 0%, lighten($gray, 20%) 100%);
+        cursor: pointer;
+    }
 }

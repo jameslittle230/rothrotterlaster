@@ -1,20 +1,7 @@
 <nav class="main-navigation">
-  <!-- <p class="main-navigation__toggle" id="js-main-nav-toggler">Show/Hide Navigation</p> -->
-   <!--  <ul id="js-main-nav">
-        <li class="main-navigation__item"><a href="/">Home</a></li>
-        <li class="main-navigation__item"><a href="/about">About Us</a></li>
-        <li class="main-navigation__item"><a href="/appointments">Appointments</a></li>
-        <li class="main-navigation__item"><a href="/hours-directions">Hours &amp; Directions</a></li>
-        <li class="main-navigation__item"><a href="/new-patient">New Patient Information</a></li>
-        <li class="main-navigation__item main-navigation__item--emergencies"><a href="/emergencies">Emergencies</a></li>
-        <li class="main-navigation__item"><a href="/after-hours">After Hours Coverage</a></li>
-        <li class="main-navigation__item"><a href="/resources">Forms &amp; Resources</a></li>
-        <li class="main-navigation__item"><a href="/policies">Office Policies</a></li>
-        <li class="main-navigation__item"><a href="/insurance">Insurance</a></li>
-        <li class="main-navigation__item"><a href="/referrals">Referrals</a></li>
-    </ul> -->
+  <p class="main-navigation__toggle" id="js-main-nav-toggler">Show/Hide Navigation</p>
 
-    <ul>
+    <ul  id="js-main-nav-toggled">
     {% for link in site.navigation %}
         {% assign current = nil %}
         {% if page.url contains link.url %}

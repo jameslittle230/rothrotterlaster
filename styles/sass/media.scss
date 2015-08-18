@@ -25,24 +25,21 @@ $break-large: 63rem;
     }
 }
 
-// body:before {
-//     display: block;
-//     width: 100%;
-//     text-align: center;
-//     z-index: 20;
+body:before {
+    // display: none;
+    height: 0;
+    position: absolute;
+    visibility: hidden;
 
-//     @include mq-equals(small) {
-//         content: "Small";
-//         background: lawngreen;
-//     }
+    @include mq-equals(small) {
+        content: "Small";
+    }
 
-//     @include mq-equals(medium) {
-//         content: "Medium";
-//         background: yellow;
-//     }
+    @include mq-equals(medium) {
+        content: "Medium";
+    }
 
-//     @include mq-equals(large) {
-//         content: "Large";
-//         background: crimson;
-//     }
-// }
+    @include mq-equals(large) {
+        content: "Large";
+    }
+}
