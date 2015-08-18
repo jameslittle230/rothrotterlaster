@@ -7,7 +7,7 @@
         {% if page.url contains link.url %}
             {% assign current = 'main-navigation__item--active' %}
         {% endif %}
-        <li class="main-navigation__item {{ current }} {% if link.url contains "emergencies" %}main-navigation__item--emergencies{% endif %}">
+        <li class="main-navigation__item {{ current }}">
             <a href="{{ link.url }}">{{ link.title }}</a>
         </li>
     {% endfor %}

@@ -20,19 +20,17 @@ navigation:
    url: /about
  - title: Appointments
    url: /appointments
- - title: Hours and Directions
-   url: /hours-directions
+ - title: How to Reach Your Pediatrician
+   url: /how-to-reach
+ - title: Emergencies &amp; After Hours
+   url: /emergencies-after-hours
  - title: New Patient Information
    url: /new-patient
- - title: Emergencies
-   url: /emergencies
- - title: After Hours Coverage
-   url: /after-hours
  - title: Forms and Resources
    url: /resources
  - title: Office Policies
    url: /policies
- - title: Insurance
+ - title: Insurance &amp; Payments
    url: /insurance
  - title: Referrals
    url: /referrals
