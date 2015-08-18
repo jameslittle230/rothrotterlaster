@@ -20,8 +20,8 @@
 }
 
 .news-box__header {
-    background: linear-gradient(to bottom, 
-        $lighter-blue 0%, 
+    background: linear-gradient(to bottom,
+        $lighter-blue 0%,
         $blue 100%
     );
 
@@ -55,4 +55,9 @@
 .logos {
     text-align: center;
     padding: 2rem;
+
+    img {
+        box-shadow: 0 0 20px hsla(0, 0%, 0%, 0.6);
+        margin: 0 20px;
+    }
 }

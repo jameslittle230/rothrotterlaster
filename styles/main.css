@@ -634,5 +634,8 @@ body:before {
 .logos {
   text-align: center;
   padding: 2rem; }
+  .logos img {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    margin: 0 20px; }
 
 /*# sourceMappingURL=main.css.map */
