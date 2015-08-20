@@ -1,0 +1,35 @@
+@media print {
+    .main-navigation {
+        display: none;
+    }
+
+    .banner {
+        font-size: 0.8rem;
+    }
+
+    .content {
+        color: black;
+        font-size: 12pt !important;
+    }
+
+    .page-footer {
+        display: none;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    ul, img, p {
+        page-break-inside: avoid;
+    }
+
+    .content a {
+        font-weight: bolder;
+        text-decoration: none;
+    }
+
+    .content a[href^=http]:after {
+        content:" <" attr(href) "> ";
+    }
+}
