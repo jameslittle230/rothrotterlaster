@@ -643,7 +643,9 @@ body:before {
     display: none; }
 
   .banner {
-    font-size: 0.8rem; }
+    font-size: 0.8rem;
+    text-shadow: none !important;
+    color: black !important; }
 
   .content {
     color: black;
