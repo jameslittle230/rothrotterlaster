@@ -1,20 +1,20 @@
 @import url(http://fonts.googleapis.com/css?family=Cabin+Condensed:700);
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,400,400italic,700,700italic);
 
-@import "sass/normalize";
-@import "sass/variables";
-@import "sass/mixins";
-@import "sass/scaff";
-@import "sass/util";
-@import "sass/media";
+@import 'sass/normalize.css';
+@import 'sass/variables';
+@import 'sass/mixins';
+@import 'sass/scaff';
+@import 'sass/util';
+@import 'sass/media';
 
-@import "sass/base";
+@import 'sass/base';
 
-@import "sass/banner.scss";
-@import "sass/footer.scss";
-@import "sass/main-nav.scss";
-@import "sass/layout.scss";
+@import 'sass/banner';
+@import 'sass/footer';
+@import 'sass/main-nav';
+@import 'sass/layout';
 
-@import "sass/home.scss";
+@import 'sass/home';
 
-@import "sass/print.scss";
+@import 'sass/print';

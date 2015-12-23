@@ -1,40 +1,41 @@
 $banner-gradient-width: 13%;
 
 .banner {
-    background: linear-gradient(to right, 
-        $blue 0%, 
-        $white $banner-gradient-width, 
-        $white 100% - $banner-gradient-width, 
+    background: linear-gradient(to right,
+        $blue 0%,
+        $white $banner-gradient-width,
+        $white 100% - $banner-gradient-width,
         $blue 100%
     );
-    text-align: center;
+    border-bottom: 2px solid $black;
     line-height: 1;
     padding: 2rem 0;
-    border-bottom: 2px solid $black;
+    text-align: center;
 
     @include mq-equals(small) {
-        font-size: 0.8em;
-        background: linear-gradient(to right, 
-            transparentize($blue, 0.5) 0%, 
-            $white $banner-gradient-width, 
-            $white 100% - $banner-gradient-width, 
+        background: linear-gradient(to right,
+            transparentize($blue, 0.5) 0%,
+            $white $banner-gradient-width,
+            $white 100% - $banner-gradient-width,
             transparentize($blue, 0.5) 100%
         );
+
+        font-size: 0.8em;
     }
 }
 
 .banner__title {
-    font-family: "Cabin Condensed";
+    color: $blue;
+    font-family: 'Cabin Condensed';
+    font-size: 4em;
     font-weight: 700;
     margin: 0;
-    font-size: 4em;
-    color: $blue;
     text-shadow: 2px 2px 2px $black;
 }
 
 .banner__contact {
-    font-size: 1.5em;
     color: $gray;
+    font-size: 1.5em;
     font-weight: 300;
     letter-spacing: 3px;
     line-height: 1.4;

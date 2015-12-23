@@ -4,13 +4,13 @@
     }
 
     .banner {
+        color: #000 !important;
         font-size: 0.8rem;
         text-shadow: none !important;
-        color: black !important;
     }
 
     .content {
-        color: black;
+        color: #000;
         font-size: 12pt !important;
     }
 
@@ -22,7 +22,9 @@
         max-width: 100% !important;
     }
 
-    ul, img, p {
+    ul,
+    img,
+    p {
         page-break-inside: avoid;
     }
 
@@ -31,7 +33,7 @@
         text-decoration: none;
     }
 
-    .content a[href^=http]:after {
-        content:" <" attr(href) "> ";
+    .content [href^=http]:after {
+        content: ' <' attr(href) '> ';
     }
 }
