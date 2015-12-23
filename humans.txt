@@ -1,0 +1,10 @@
+humans.txt
+
+James Little
+jameslittle.me
+github.com/littleguy230
+Brookline, Massachusetts, USA
+
+Last update: Wednesday, December 23, 2015
+Standards: HTML5, CSS3
+Software: Sublime Text, Atom, Chrome, Jekyll, Sass
