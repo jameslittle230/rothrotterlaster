@@ -1,16 +1,13 @@
 .page-footer {
     @include cf;
-    background: linear-gradient(to bottom,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(0, 0, 0, 0.5) 40%,
-        rgba(0, 0, 0, 0.8) 80%
-    );
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0.8) 80% );
     color: $white;
     font-size: 0.9rem;
     line-height: 1.3;
     margin-top: 1rem;
     padding: 3rem 1rem 0.3rem;
     text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.65);
+
 
     a {
         color: inherit;
@@ -22,10 +19,12 @@
     }
 }
 
+
 .page-footer__contact {
     float: left;
     width: 50%;
 }
+
 
 .page-footer__byline {
     float: right;

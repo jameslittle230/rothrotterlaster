@@ -1,13 +1,22 @@
 .text-center {
-	text-align: center;
+    text-align: center;
 }
 
 .pull-left {
     float: left;
     margin-bottom: 1em;
-	margin-right: 1em;
+    margin-right: 1em;
 }
 
 .clear {
     clear: both;
+}
+
+.img-half {
+    max-width: 40%;
+    height: auto;
+}
+
+.scroll-off {
+    pointer-events: none;
 }
