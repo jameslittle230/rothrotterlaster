@@ -109,6 +109,17 @@ body:before {
 .content iframe {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
   margin: 1em 0; }
+.content dt {
+  float: left;
+  clear: left;
+  width: 9rem;
+  text-align: right;
+  font-weight: bold; }
+.content dt:after {
+  content: ":"; }
+.content dd {
+  margin: 0 0 0 9.5rem;
+  padding: 0 0 0.5em; }
 
 .banner {
   background: linear-gradient(to right, #0A7BFF 0%, #E6EAEF 13%, #E6EAEF 87%, #0A7BFF 100%);

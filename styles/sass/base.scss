@@ -18,7 +18,6 @@
     p {
         margin: 0;
 
-
         + p {
             margin-top: 1.5em;
         }
@@ -28,5 +27,22 @@
     iframe {
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
         margin: 1em 0;
+    }
+
+    dt {
+        float: left;
+        clear: left;
+        width: 9rem;
+        text-align: right;
+        font-weight: bold;
+    }
+
+    dt:after {
+        content: ":";
+    }
+
+    dd {
+        margin: 0 0 0 9.5rem;
+        padding: 0 0 0.5em;
     }
 }
