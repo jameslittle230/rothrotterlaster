@@ -121,6 +121,13 @@ body:before {
   margin: 0 0 0 9.5rem;
   padding: 0 0 0.5em; }
 
+hr {
+  margin-top: 1.3rem;
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc); }
+
 .banner {
   background: linear-gradient(to right, #0A7BFF 0%, #E6EAEF 13%, #E6EAEF 87%, #0A7BFF 100%);
   border-bottom: 2px solid #111C28;
@@ -260,6 +267,20 @@ body:before {
   .main-navigation + .content {
     float: right;
     width: 65%; } }
+
+.photo-card {
+  float: left;
+  width: 50%;
+  padding: 3px;
+  height: auto; }
+
+.row {
+  clear: both;
+  margin-bottom: 2em; }
+  .row:after {
+    clear: both;
+    content: '';
+    display: table; }
 
 .content__home-image {
   box-shadow: 0 0 20px #111C28;
