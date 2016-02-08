@@ -59,7 +59,7 @@ img {
 
 .pull-left {
   float: left;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
   margin-right: 1em; }
 
 .clear {
@@ -122,6 +122,7 @@ body:before {
   padding: 0 0 0.5em; }
 
 hr {
+  clear: both;
   margin-top: 1.3rem;
   border: 0;
   height: 1px;
