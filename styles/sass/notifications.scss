@@ -1,0 +1,19 @@
+.notification {
+    background: $red;
+    color: $black;
+    margin: 1rem;
+    padding: 1rem 10%;
+    color: darken($red, 50);
+    font-size: 1.2rem;
+    box-shadow: 0 0 10px transparentize($black, 0.5);
+
+    p {
+        margin: 0 0 0.5rem;
+        line-height: 1.2;
+    }
+
+    .notification__date {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+    }
+}

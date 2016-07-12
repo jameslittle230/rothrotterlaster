@@ -283,6 +283,21 @@ hr {
     content: '';
     display: table; }
 
+.notification {
+  background: #e86e66;
+  color: #111C28;
+  margin: 1rem;
+  padding: 1rem 10%;
+  color: #450e0a;
+  font-size: 1.2rem;
+  box-shadow: 0 0 10px rgba(17, 28, 40, 0.5); }
+  .notification p {
+    margin: 0 0 0.5rem;
+    line-height: 1.2; }
+  .notification .notification__date {
+    font-size: 0.8rem;
+    text-transform: uppercase; }
+
 .content__home-image {
   box-shadow: 0 0 20px #111C28;
   display: block;
